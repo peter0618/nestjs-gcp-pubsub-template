@@ -20,7 +20,9 @@
     "test:e2e": "jest --config ./test/jest-e2e.json"
   },
   "dependencies": {
+    "@google-cloud/pubsub": "^2.1.0",
     "@nestjs/common": "^6.10.14",
+    "@nestjs/config": "latest",
     "@nestjs/core": "^6.10.14",
     "@nestjs/platform-express": "^6.10.14",
     "reflect-metadata": "^0.1.13",
