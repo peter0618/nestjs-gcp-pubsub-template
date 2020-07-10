@@ -3,9 +3,10 @@ import { AppController } from './app.controller';
 import { AppService } from './app.service';
 import { ConfigurationModule } from './configuration/configuration.module';
 import { SubscriberModule } from './modules/subscriber/subscriber.module';
+import { PublisherModule } from './modules/publisher/publisher.module';
 
 @Module({
-  imports: [ConfigurationModule, SubscriberModule],
+  imports: [ConfigurationModule, SubscriberModule, PublisherModule],
   controllers: [AppController],
   providers: [AppService],
 })
